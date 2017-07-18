@@ -3,19 +3,19 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'mongoid/rspec/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'mongoid-rspec'
+  s.name        = 'mongoid-spec'
   s.version     = Mongoid::RSpec::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Evan Sagge', 'Rodrigo Pinto']
   s.email       = 'evansagge@gmail.com contato@rodrigopinto.me'
-  s.homepage    = 'http://github.com/mongoid-rspec/mongoid-rspec'
+  s.homepage    = 'http://github.com/rrmartins/mongoid-rspec'
   s.summary     = 'RSpec matchers for Mongoid'
   s.description = 'RSpec matches for Mongoid models, including association and validation matchers.'
   s.license     = 'MIT'
 
   s.required_ruby_version     = '>= 2.2'
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project         = 'mongoid-rspec'
+  s.rubyforge_project         = 'mongoid-spec'
 
   s.add_dependency 'mongoid', '~> 6.0'
   s.add_dependency 'rspec',   '~> 3.3'
